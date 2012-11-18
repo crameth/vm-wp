@@ -53,6 +53,8 @@ define('NONCE_SALT',       'lA>C/cyc>.gQ]. }K6AS+$[6gp:ZVEX9Td Q|#6EDtT#EooDw7NW
 
 /**#@-*/
 
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] );
+
 /**
  * WordPress Database Table prefix.
  *
