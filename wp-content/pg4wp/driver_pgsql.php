@@ -77,7 +77,7 @@
 		
 		// While installing, we test the connection to 'template1' (as we don't know the effective dbname yet)
 		if( defined('WP_INSTALLING') && WP_INSTALLING)
-			return wpsql_select_db( 'template1');
+			return wpsql_select_db( 'd2e35cth6tote1');
 		
 		return 1;
 	}
